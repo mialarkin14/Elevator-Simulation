@@ -12,8 +12,9 @@ Features:
 7. Simulates based on test files
 
 
-Includes Build and Compile Process
-
+Includes:
+- Build and Compile Process
+- Use of OOP
 - 70% of code is original
 - 30% is starter code provided by the University of Connecticut
 - Includes makefile, clear comments, and readable code
