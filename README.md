@@ -13,3 +13,7 @@ Features:
 
 
 Includes Build and Compile Process
+
+- 70% of code is original
+- 30% is starter code provided by the University of Connecticut
+- Includes makefile, clear comments, and readable code
