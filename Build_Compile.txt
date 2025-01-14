@@ -1,0 +1,39 @@
+Building & Compiling the Code:
+
+- Created by Mia Larkin
+- December 2024
+
+
+** !! MAKE SURE ALLEGRO5 IS INSTALLED ON YOUR DEVICE !! **
+
+
+Easy Way: ( This assumes you are using a MacBook Machine )
+
+1. Use the Makefile that was created to simply build the code. This will create an executable called simulate
+2. Once an executable is created, call it using "./" notion along with whatever test file you want to use 
+3. Ex: 
+   make 
+   ./simulate test1.txt
+4. This runs the code and an animation should start
+
+
+Complex Way: ( A general build, not specific to MacBook )
+1. The following cpp files need to be built:
+    - ECGraphicViewImp.cpp
+    - ECElevatorSim.cpp
+    - Simulate.cpp
+    - Passenger.cpp
+    - Elevator.cpp
+2. This should be followed by the build for Allegro5 which is typically: -lallegro -lallegro_font -lallegro_primitives -lallegro_image -lallegro_main
+3. Version c++17 should be used to avoid warnings
+4. The name of the executable by default is a.out but can be changed using -o "new_name_here"
+5. Ex:
+   g++ ECGraphicViewImp.cpp ECElevatorSim.cpp Simulate.cpp Passenger.cpp Elevator.cpp -lallegro -lallegro_font -lallegro_primitives -lallegro_image -lallegro_main -std=c++17 -o simulate
+   ./simulate test1.txt
+
+
+
+
+
+
+
