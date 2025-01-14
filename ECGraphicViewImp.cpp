@@ -2,7 +2,6 @@
 //  ECGraphicViewImp.cpp
 //  
 //
-//  Created by Yufeng Wu on 3/2/22.
 //
 
 #include "ECGraphicViewImp.h"
