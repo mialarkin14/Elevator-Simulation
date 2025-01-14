@@ -3,8 +3,8 @@
 //  ECElevatorSim.cpp
 //  
 //
-//  Created by Yufeng Wu on 6/27/23.
 //  Elevator simulation
+// Backend
 
 
 #include "ECElevatorSim.h"
