@@ -4,7 +4,6 @@
 //  
 //
 //  Elevator simulation
-// Backend
 
 
 #include "ECElevatorSim.h"
